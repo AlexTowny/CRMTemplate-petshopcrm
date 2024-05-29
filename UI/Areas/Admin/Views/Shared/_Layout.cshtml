@@ -53,6 +53,21 @@
 									Пользователи
 								</a>
 							</li>
+                            <li class="nav-item">
+                                <a class="nav-link @(Url.GetController() == "Animal" ? "active" : "")" asp-controller="Animal" asp-action="Index">
+                                    Животные
+                                </a>
+                            </li>
+                             <li class="nav-item">
+                                <a class="nav-link @(Url.GetController() == "Breed" ? "active" : "")" asp-controller="Breed" asp-action="Index">
+                                    Породы
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link @(Url.GetController() == "Typee" ? "active" : "")" asp-controller="Typee" asp-action="Index">
+                                    Виды
+                                </a>
+                            </li>
 						}
 					</ul>
 				</div>

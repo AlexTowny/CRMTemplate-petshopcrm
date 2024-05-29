@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+<Project Sdk="Microsoft.NET.Sdk.Web">
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
@@ -38,6 +38,12 @@
     <Compile Include="Other\OperationResultType.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="Areas\Admin\Models\TypeeModel.cs" />
+    <Compile Include="Areas\Admin\Models\BreedModel.cs" />
+    <Compile Include="Areas\Admin\Models\AnimalModel.cs" />
+    <Compile Include="Areas\Admin\Controllers\TypeeController.cs" />
+    <Compile Include="Areas\Admin\Controllers\BreedController.cs" />
+    <Compile Include="Areas\Admin\Controllers\AnimalController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="compilerconfig.json" />
@@ -68,5 +74,5 @@
   </ProjectExtensions>
   <PropertyGroup>
     <GenerateRuntimeConfigDevFile>true</GenerateRuntimeConfigDevFile>
-</PropertyGroup>
+  </PropertyGroup>
 </Project>

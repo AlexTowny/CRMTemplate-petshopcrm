@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
@@ -13,6 +13,9 @@
     <Compile Include="Search\UsersSearchParams.cs" />
     <Compile Include="Search\SearchResult.cs" />
     <Compile Include="Configuration\SharedConfiguration.cs" />
+    <Compile Include="Search\TypeeSearchParams.cs" />
+    <Compile Include="Search\BreedSearchParams.cs" />
+    <Compile Include="Search\AnimalSearchParams.cs" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="MailKit" Version="4.2.0" />

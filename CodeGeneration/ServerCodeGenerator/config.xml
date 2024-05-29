@@ -2,6 +2,10 @@
 <configuration>
 	<generationSettings solutionFolderPath="..\..\..\..\..\" existingFilesProcessMode="Overwrite" maxLineWidth="120"/>
 	<entities>
+		
+		<entity name="Typee"> </entity>
+		<entity name="Breed"> </entity>
+		<entity name="Animal"> </entity>
 		<!--<entity name="Client">
 			<properties>
 				<property dbName="RegistrationStatusId" entityName="RegistrationStatus" entityType="Common.Enums.ClientRegistrationStatus, Common"/>

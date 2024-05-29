@@ -1,14 +1,20 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="BaseDal.cs" />
+    <Compile Include="DbModels\Animal.cs" />
+    <Compile Include="DbModels\Breed.cs" />
     <Compile Include="DbModels\DefaultDbContext.cs" />
+    <Compile Include="DbModels\Typee.cs" />
     <Compile Include="DbModels\User.cs" />
     <Compile Include="OrderedQueryableVisitor.cs" />
     <Compile Include="UsersDal.cs" />
+    <Compile Include="TypeeDal.cs" />
+    <Compile Include="BreedDal.cs" />
+    <Compile Include="AnimalDal.cs" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Humanizer" Version="2.14.1" />

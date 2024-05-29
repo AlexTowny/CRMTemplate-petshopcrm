@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
@@ -16,5 +16,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="UsersBL.cs" />
+    <Compile Include="TypeeBL.cs" />
+    <Compile Include="BreedBL.cs" />
+    <Compile Include="AnimalBL.cs" />
   </ItemGroup>
 </Project>
